@@ -1,0 +1,27 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "E2E Framework Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --reporter mochawesome",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "e2e automation"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "cypress"
+  ],
+  "author": "adriana chipana",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-multi-reporters": "^1.6.4",
+    "mochawesome": "^7.1.3"
+  }
+}
